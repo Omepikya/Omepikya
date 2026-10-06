@@ -1,25 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Omepikya — Product Builder</title>
-  <desc id="desc">Building practical software for web, Android and intelligent systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Omepikya — Turning ideas into useful software</title>
+  <desc id="desc">A minimal light hero for the Omepikya GitHub profile.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="55%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#172554"/>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="58%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef4ff"/>
     </linearGradient>
-    <radialGradient id="glow" cx="82%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#60a5fa" stop-opacity=".28"/>
-      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".78"/>
+      <stop offset="100%" stop-color="#dbeafe" stop-opacity=".46"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#64748b" flood-opacity=".16"/>
+    </filter>
   </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
-  <circle cx="1030" cy="80" r="120" fill="none" stroke="#93c5fd" stroke-opacity=".12" stroke-width="2"/>
-  <circle cx="1030" cy="80" r="78" fill="none" stroke="#93c5fd" stroke-opacity=".10" stroke-width="2"/>
-  <circle cx="1030" cy="80" r="36" fill="#60a5fa" fill-opacity=".08" stroke="#93c5fd" stroke-opacity=".18"/>
-  <text x="76" y="112" fill="#93c5fd" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="4">OMEPIKYA</text>
-  <text x="76" y="178" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800">Building useful software.</text>
-  <text x="76" y="220" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="21">Web · Android · Cloud · Intelligent systems</text>
-  <line x1="76" y1="270" x2="380" y2="270" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
-  <text x="76" y="308" fill="#94a3b8" font-family="Arial,Helvetica,sans-serif" font-size="17">Design it. Build it. Improve it.</text>
+
+  <rect width="1200" height="520" rx="28" fill="url(#wash)"/>
+  <path d="M610 40 C790 10 910 130 1200 42 L1200 430 C1000 500 900 365 720 410 C620 435 560 310 610 40Z" fill="#eaf2ff" opacity=".8"/>
+  <path d="M690 95 C840 40 1010 125 1200 82 L1200 320 C1030 370 900 270 740 330 C660 360 630 190 690 95Z" fill="#f5f8ff" opacity=".95"/>
+
+  <g transform="translate(54 42)">
+    <circle cx="22" cy="22" r="22" fill="#0f172a"/>
+    <path d="M14 22c0-8 5-14 13-16 7-1 14 3 17 10-5-3-10-4-15-2-6 2-8 7-7 13-5-1-8-3-8-5Z" fill="#dbeafe"/>
+    <text x="60" y="30" fill="#0f172a" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="7">OMEPIKYA</text>
+  </g>
+
+  <text x="54" y="150" fill="#475569" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" letter-spacing="1">DEVELOPER · BUILDER · STUDENT</text>
+  <text x="54" y="220" fill="#0f172a" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="800">Turning ideas</text>
+  <text x="54" y="278" fill="#0f172a" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="800">into useful software.</text>
+  <text x="54" y="324" fill="#475569" font-family="Arial,Helvetica,sans-serif" font-size="21">Web  ·  Android  ·  Cloud  ·  AI</text>
+  <text x="54" y="366" fill="#64748b" font-family="Arial,Helvetica,sans-serif" font-size="17">Practical products focused on simplicity, reliability, and real-world usefulness.</text>
+
+  <g transform="translate(850 130) rotate(8)" filter="url(#shadow)">
+    <rect width="180" height="250" rx="24" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".9" stroke-width="2"/>
+    <rect x="34" y="38" width="112" height="12" rx="6" fill="#94a3b8" opacity=".35"/>
+    <rect x="34" y="70" width="78" height="9" rx="4" fill="#cbd5e1" opacity=".5"/>
+    <rect x="34" y="118" width="112" height="72" rx="16" fill="#dbeafe" opacity=".42"/>
+  </g>
+  <g transform="translate(735 178) rotate(-10)" filter="url(#shadow)">
+    <rect width="180" height="250" rx="24" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".9" stroke-width="2"/>
+    <rect x="34" y="38" width="112" height="12" rx="6" fill="#94a3b8" opacity=".35"/>
+    <rect x="34" y="70" width="78" height="9" rx="4" fill="#cbd5e1" opacity=".5"/>
+    <rect x="34" y="118" width="112" height="72" rx="16" fill="#e0e7ff" opacity=".45"/>
+  </g>
+
+  <line x1="54" y1="432" x2="1146" y2="432" stroke="#e2e8f0"/>
+  <text x="54" y="468" fill="#64748b" font-family="Arial,Helvetica,sans-serif" font-size="16">Build useful things. Keep improving them.</text>
 </svg>
